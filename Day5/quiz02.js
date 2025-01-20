@@ -11,7 +11,7 @@
 function printAvgScore(students) {
     for (let name in students) {
         let sum = 0;
-        const { scores } = students[name]; // 여기서 해당 name의 객체에서 scores 속성만 추출
+        const { scores } = students[name];
 
         for (let score of scores) {
             sum += score;
