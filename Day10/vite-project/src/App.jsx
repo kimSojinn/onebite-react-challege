@@ -9,7 +9,12 @@ function Welcome({ name, isMember }) {
 }
 
 function App() {
-    return <Welcome name={"이정환"} isMember={false} />;
+    return (
+        <>
+            <Welcome name={"이정환"} isMember={false} />
+            <Welcome name={"이정환"} isMember={true} />
+        </>
+    );
 }
 
 export default App;
